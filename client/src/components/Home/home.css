@@ -15,11 +15,12 @@ body{
     background-image: url("fond2.jpg");
     background-size: cover;
     opacity: 0.8;
+    filter: sepia(50%);
 }
 @media (max-height: 1024px){
     .presentation{
     text-align: center;    
-    height: 750px;
+    height: 650px;
     display: flex;
     align-items:center ;
     justify-content: center;
@@ -27,6 +28,8 @@ body{
     
     }
 }
+
+
 
 @media (min-height: 1025px){
     .presentation{
@@ -40,21 +43,29 @@ body{
 }
 h1{
     color: black;
-    font-size: 2.8em;
+    font-size: 2.5em;
     margin-top: 270px;
 }
 
 .date{
-    font-size: 2.2em;
-    font-family: var(--title-font);
-    color: black;
-    
+  font-size: 2.2em;
+  font-family: var(--title-font);
+  color: black;
 }
+
+@media (max-width:480px){
+  h1{
+    color: rgb(221, 217, 240)
+  }
+  .date{
+  color: rgb(221, 217, 240)
+}
+}
+
 /* *******************************logo************************* */
 .wrapper {
     width: 20%;
     margin-right: 2%;
-    margin-top: 120px;
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -65,11 +76,11 @@ h1{
     position: relative;
     background: #a9aebc;
     border-radius: 50%;
-    padding: 15px;
+    padding: 10px;
     margin: 15px;
-    width: 40px;
-    height: 40px;
-    font-size: 18px;
+    width: 35px;
+    height: 35px;
+    font-size: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,7 +96,7 @@ h1{
     font-size: 14px;
     background: #ffffff;
     color: #ffffff;
-    padding: 5px 8px;
+    padding: px 8px;
     border-radius: 5px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     opacity: 0;
@@ -127,10 +138,18 @@ header{
     text-align: center;
     height: 110px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;    
     justify-content: space-between;
     font-size: 1.1em;
     padding: 0% 1%;
+}
+
+@media (max-width:620px){
+  header{
+    display: block;
+    height: 180px;
+  }
 }
 
 
@@ -143,8 +162,7 @@ header{
 h3{
     font-size: 1.3em;
     color: rgb(255, 255, 255);
-    font-family: var(--main-font)
-
+    font-family: var(--main-font)*
 }
 
 

@@ -1,18 +1,20 @@
-.history{
-    width: fit-content;
-    background-color: rgb(254, 241, 232);
-    padding: 30px;
-}
-
 p{
-    font-size: 1.5em;
+    font-size: 1.3em;
+    padding: 2% 18% 5%;
+    line-height: 40px;
+    font-family: var(--main-font);
     text-indent: 2em;
-    padding: 30px 150px ;
-    font-family: var(--main-font)
+
 }
 
 .title-content{
     font-family: var(--secondary-font);
-    color: black;
     text-align: center;
+    margin-top: 70px;
+}
+
+.link{
+    color:inherit;
+    text-decoration: none;
+    font-weight: bold;
 }

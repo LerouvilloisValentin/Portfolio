@@ -1,0 +1,87 @@
+span{
+    font-size: 1.2em;
+    font-family: var(--secondary-font);
+    text-decoration: underline;
+
+}
+
+.projet{
+margin: 5% 10% 10% 10%; 
+color: rgb(91, 94, 94);
+background-color: rgb(235, 203, 163);
+border-radius: 15% 5% 10% 15%;
+}
+
+
+.photo-mignon{
+    height: 450px;
+    padding: 20% 4% 10% ;
+    float: left;
+
+}
+
+.photo-valoutube{
+    height: 500px;
+    padding: 12% 4% ;
+}
+
+.wrapper-projet{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-projet{
+   width: 40%;
+   padding: 0;
+
+}
+@media(max-width: 980px){
+    .text-projet{
+
+        width: 40%;
+        padding-left: 200px;
+     }   
+     .photo-mignon{
+        padding: 8% 10% 4% 15%;
+        float: left;
+
+     }
+     .photo-valoutube{
+        padding: 8% 10% 4% 10%;
+
+    }
+}
+
+@media(max-width: 650px){
+    .text-projet{
+
+        width: 100%;
+        padding-left: 80px;
+     }   
+     .photo-mignon{
+        padding: 0% 0% 4% 10%;
+        height : 400px
+     }
+
+     .photo-valoutube{
+        padding: 0% 0% 4% 10%;
+        height : 280px
+
+    }
+
+     .projet{
+        margin: 5% 10% 10% 5%; 
+        color: rgb(91, 94, 94);
+        background-color: var(--body-color);
+        }
+}
+
+@media (min-width : 1010px) {
+    .photo-valoutube{
+        padding: 22% 4% 4% 5%;
+        height : 300px;
+        float: left;
+
+
+    }
+}

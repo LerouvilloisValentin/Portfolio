@@ -1,0 +1,76 @@
+/* width: 400px; */
+.contact{
+  background: #3f3f3f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: 120px;
+  padding: 20px 50px ;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 25% 10%;
+  font-family: var(--main-font);
+
+}
+
+form {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 60%;
+  font-size: 16px;
+}
+label {
+  margin-top: 0.6rem;
+  color: antiquewhite;
+  font-size: 1.3em;
+
+
+}
+
+input {
+  width: 70%;
+  height: 30px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+  margin-top: 1rem;
+  background: rgb(251, 245, 245);
+  color: rgb(37, 35, 35);
+  font-family: var(--main-font);
+  font-size: 1em;
+}
+      
+input:focus{
+  border: 2px solid rgb(240, 151, 151);
+}
+
+textarea{
+  width:90%;
+  height:120px;
+  margin: 20px 0;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+  font-family: var(--main-font);
+  font-size: 1em;
+}
+ 
+textarea:focus{
+ border: 2px solid rgb(240, 151, 151);
+}
+
+.send-button{
+  width:35%;
+  font-family: var(--main-font);
+  font-size: 1em;
+  border: 2px solid rgb(248, 250, 250);
+  background-color: rgb(240, 151, 151);
+
+}
+
+@media (max-width : 630px){
+  .contact{
+    margin:50px 0px 50px 50px;
+  }
+}
