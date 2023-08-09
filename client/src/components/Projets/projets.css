@@ -15,14 +15,14 @@ border-radius: 15% 5% 10% 15%;
 
 .photo-mignon{
     height: 450px;
-    padding: 20% 4% 10% ;
+    padding: 20% 4% 25% 2%;
     float: left;
 
 }
 
 .photo-valoutube{
     height: 500px;
-    padding: 12% 4% ;
+    padding: 25% 4% ;
 }
 
 .wrapper-projet{
@@ -31,7 +31,7 @@ border-radius: 15% 5% 10% 15%;
 }
 
 .text-projet{
-   width: 40%;
+   width: 42%;
    padding: 0;
 
 }
@@ -78,10 +78,58 @@ border-radius: 15% 5% 10% 15%;
 
 @media (min-width : 1010px) {
     .photo-valoutube{
-        padding: 22% 4% 4% 5%;
+        padding: 20% 4% 15% 5%;
         height : 300px;
         float: left;
 
 
     }
+}
+
+@media (max-width:750px) {
+    .send-button{
+        padding-right: 50px; 
+    }
+    textarea{
+        padding: 0px 35px  ;
+    }
+    input{
+        padding: 0px 25px  ;
+     
+    }
+}
+
+.link-to-network{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-right: 15% ;
+}
+
+.github-link{
+    background: #b57a7a;
+    padding-right: 8%;
+    margin-left: 20%;
+    color: inherit;
+    text-decoration:none ;
+    border-radius: 45%;
+}
+.github-link:hover{
+    background: rgb(195, 55, 55);
+}
+.website-link{
+    background: #b57a7a;
+    border-radius: 45%;
+    padding-right: 9%;
+    color: inherit;
+    text-decoration:none ;
+}
+
+.website-link:hover{
+    background: rgb(195, 55, 55);
+}
+
+.logo_youtube{
+    padding-left: 65px;
 }

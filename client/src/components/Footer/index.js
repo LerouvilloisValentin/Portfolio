@@ -29,7 +29,7 @@ function Footer(){
                     </span>
                 </li>
                 <li className="icon github">
-                    <span className="tooltip">Github</span>
+                    <span className="tooltip" translate="no">Github</span>
                     <span><i className="fab fa-github"></i>
                     <a href="https://github.com/LerouvilloisValentin" target="_blank" rel="noreferrer"><img src="https://zupimages.net/up/23/07/5h8d.png" alt="github" className="github" /> </a>
                     </span>

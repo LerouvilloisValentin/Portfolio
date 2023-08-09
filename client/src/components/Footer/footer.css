@@ -2,21 +2,19 @@
 
 
 .footer-top{
-background-color: rgb(128, 121, 121);
-height: 60px;
-width: 100%;
-display:flex ;
-align-items:center ;
-justify-content: center;
-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-cursor: pointer;
-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-
-
+    background: rgb(169, 184, 184);
+    height: 60px;
+    width: 100%;
+    display:flex ;
+    align-items:center ;
+    justify-content: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .footer-top:hover{
-    background: rgb(225, 241, 241);
+    background: rgb(156, 49, 49);
 }
 
 .buttoon-up{
@@ -28,7 +26,7 @@ transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     cursor: pointer;
 }
 .footer-bottom{
-    background-color: rgb(214, 179, 158);
+    background-color: rgb(46, 109, 177);
     display: flex;
     align-items: center;
     text-align: center;

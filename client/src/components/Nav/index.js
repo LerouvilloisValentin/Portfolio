@@ -1,5 +1,5 @@
 import "./nav.css"
-import { Link, useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 
 
@@ -7,16 +7,38 @@ function Nav(){
     const location = useLocation()
     useEffect(() =>{
         window.scroll({
-            top:870,
+            top:740,
             behavior: 'smooth',
         }); 
     }, [location.pathname])
     return(
-        <nav>
-<h3> <Link className='nav-link' to="/history">Histoire</Link></h3> 
-<h3> <Link className='nav-link' to="/mastery">Maîtrise</Link></h3> 
-<h3> <Link className='nav-link' to="/projets">Projets</Link></h3> 
-<h3> <Link className='nav-link' to="/contact">Contact</Link></h3> 
+        <nav className="menu">
+            <h3> 
+                <NavLink 
+                className={({ isActive }) => (isActive ? 'nav-link-selected ' : 'nav-link')}                    
+                to="/history">
+                    Histoire
+                </NavLink> 
+            </h3> 
+            <h3> <NavLink 
+                className={({ isActive }) => (isActive ? 'nav-link-selected ' : 'nav-link')}
+                to="/mastery">
+                Maîtrise
+                </NavLink>
+                </h3> 
+            <h3> <NavLink
+                className={({ isActive }) => (isActive ? 'nav-link-selected ' : 'nav-link')}
+                to="/projets">
+                Projets
+                </NavLink>
+                </h3> 
+            <h3> 
+                <NavLink 
+           className={({ isActive }) => (isActive ? 'nav-link-selected ' : 'nav-link')}
+            to="/contact">
+                Contact
+                </NavLink>
+                </h3> 
 
         </nav>
     )
