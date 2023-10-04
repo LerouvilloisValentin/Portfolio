@@ -7,8 +7,9 @@ span{
 
 .projet{
 margin: 5% 10% 10% 10%; 
-color: rgb(91, 94, 94);
-background-color: rgb(235, 203, 163);
+color: rgb(226, 223, 223);
+background-color: rgb(40, 40, 33);
+/* opacity: 80%; */
 border-radius: 15% 5% 10% 15%;
 }
 
@@ -17,11 +18,11 @@ border-radius: 15% 5% 10% 15%;
     height: 450px;
     padding: 20% 4% 25% 2%;
     float: left;
-
+    opacity: 75%;
 }
 
 .photo-valoutube{
-    height: 500px;
+    height: 800px;
     padding: 25% 4% ;
 }
 
@@ -78,11 +79,10 @@ border-radius: 15% 5% 10% 15%;
 
 @media (min-width : 1010px) {
     .photo-valoutube{
-        padding: 20% 4% 15% 5%;
-        height : 300px;
+        padding: 20% 4% 15% 4%;
+        height : 400px;
+        width: 350px;
         float: left;
-
-
     }
 }
 

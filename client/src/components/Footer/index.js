@@ -4,7 +4,7 @@ import "./footer.css"
 function Footer(){
     const upToHome = () => {
         window.scroll({
-            top:0,
+            top:"400vh",
             behavior:'smooth',
         })
     }

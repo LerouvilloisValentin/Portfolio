@@ -16,7 +16,7 @@ nav{
 }
 
 .nav-link-selected{
-    color: rgb(120, 119, 119);
+    color: rgb(161, 105, 61);
     text-decoration: dashed;
     border: 2px solid rgb(161, 105, 61);
     border-radius: 50% 25%;

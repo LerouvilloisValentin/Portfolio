@@ -1,7 +1,6 @@
 import "./projets.css"
 import Home from "../Home";
 import Footer from "../Footer";
-import { red } from "@mui/material/colors";
 
 function Projets(){
     return(
@@ -11,7 +10,7 @@ function Projets(){
                 <article className="projet">     
                     <div className="wrapper-projet">
                   
-                       <a href="https://tropmeugnon.surge.sh" target="_blank" rel="noreferrer" className="photo-mignon"><img className="photo-mignon" src="img/mignon.png" alt="photo_mignon"></img> </a>            
+                       <img className="photo-mignon" src="img/mignon.png" alt="photo_mignon"></img>            
                         
                         <p className="text-projet"> <span>Projet "Chui trop mignon" (l'apothéose de fin de formation) </span><br/><br/>
                         Dans un premier temps en commun avec le groupe :
@@ -48,13 +47,13 @@ function Projets(){
                         <p className="text-projet">
                         <span>Projet "Valoutube" </span><br/><br/>
                         J'ai choisi de coder ce projet que j'ai mené pendant près d'un mois,
-                         qui m'a permis de réutiliser les outils fondamentaux de <strong>Node.js</strong>:
+                         qui m'a permis de réutiliser les outils fondamentaux de Node.js:
                         <br/>- Connect to MongoDB,
                         <br/>- Stockage du JWT pour l'authentification dans les cookies,
                         <br/>- Vérification à l'authentification et la connexion puis gestion message d'erreur explicite (avec l'aide d'insomnia),
                         <br/>- CRUD User, CRUD video et CRUD commentaire.<br/><br/>
                         
-                        et de <strong>React</strong>:
+                        et de React:
                         <br/>- Gestion de l'authentification et de la connexion,
                         <br/>- Authentification rapide via son compte Google(gmail),
                         <br/>- Utilisation de React Redux Toolkit pour requêter MongoDB,

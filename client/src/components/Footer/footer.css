@@ -3,7 +3,7 @@
 
 .footer-top{
     background: rgb(169, 184, 184);
-    height: 60px;
+    height: 45px;
     width: 100%;
     display:flex ;
     align-items:center ;
@@ -21,19 +21,19 @@
     display:flex ;
     align-items:center ;
     justify-content: center;
-    height: 40px;
-    width: 70px;
+    height: 30px;
+    width: 65px;
     cursor: pointer;
 }
 .footer-bottom{
-    background-color: rgb(46, 109, 177);
+    background-color: rgb(26, 25, 25);
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: space-evenly;
-    height: 60px;
+    height: 45px;
     flex-direction: column;
-    padding-top: 40px;
+    padding-top: 35px;
 }
 
 .github{

@@ -20,9 +20,10 @@ function Mastery(){
                      J'ai ensuite passé la certification Opquast très intéressante et l'ai réussie avec mention "confirmée" 💪. J'ai commencé à apprendre la bibliothèque <strong>Jquery</strong> de Javascript et je 
                      me suis aussi intéressé au langage <strong>C#</strong> et ai suivi des cours plutôt intéressants. D'avril à juin 2023 (3 mois), j'ai poursuivi un stage chez Portalliance, une filiale d'Airbus 
                      qui, à l'aide d'api et de ses ingénieurs, collectent des calculs pour le maillage de pièces d'avion. Entre la création de projet et son terme, il se passe différentes étapes, réparti en fonction des différents rôles.
-                      C'est sur cela que le groupe des développeurs web sont missionnés. <strong>React</strong>, <strong>Go</strong> et <strong>Gitlab</strong> sont les technos utilisées. <br></br> A côté de cela, je regarde des vidéos sur youtube et je revisionne 
-                    les replays de mes cours de React pour bien assimiler toutes les notions en faisant des exos en parallèle. Quoi qu'il en soit je continue à prendre de 
-                    l'expérience de mon côté pour me préparer à toutes éventualités.
+                      C'est sur cela que le groupe des développeurs web sont missionnés. <strong>React</strong>, <strong>Go</strong> et <strong>Gitlab</strong> sont les technos utilisées. <br></br> 
+                      <br/>A côté de cela, je regarde des vidéos sur youtube et je revisionne 
+                    les replays de mes cours de React pour bien assimiler toutes les notions en faisant des exos en parallèle. Je viens de finir de m'intéresser aux tests unitaires avec <strong>Jest</strong> et maintenant je vais me concentrer sur <strong>Typescript</strong>. 
+                    Quoi qu'il en soit je continue à prendre de l'expérience de mon côté pour me préparer à toutes éventualités.
                     À l'heure actuelle je souhaite trouver un emploi.
 
                     </p>

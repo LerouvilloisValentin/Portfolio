@@ -1,5 +1,5 @@
 :root{
-    --body-color: #f8e3d5;  
+    --body-color: #eee8e3;  
     --title-font: 'Mouse Memoirs', sans-serif;
     --main-font:'League Spartan', sans-serif;
     --secondary-font : 'Pacifico', cursive;
@@ -17,6 +17,12 @@ body{
     opacity: 0.9;
     height: 100px;
     padding-left: 50px;
+}
+
+typical{
+  color: rgb(237, 52, 52);
+  font-size: 2.5em;
+    margin-top: 180px
 }
 @media (max-height: 1024px){
     .presentation{
@@ -43,7 +49,7 @@ body{
     }
 }
 h1{
-    color: rgb(187, 55, 55);
+    color: rgb(82, 82, 82);
     font-size: 2.5em;
     margin-top: 180px;
 }

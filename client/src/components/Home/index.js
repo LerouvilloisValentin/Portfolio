@@ -19,7 +19,7 @@ function Home(){
         steps={['Développeur web', 1000, 'Javascript React', 800]}
         translate="no"
         loop={Infinity}
-        wrapper="h1"
+        wrapper="typical"
       />
             <h2 className="date"> {dateLocale}</h2>
         <ul className="wrapper">
