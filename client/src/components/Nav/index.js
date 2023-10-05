@@ -7,7 +7,7 @@ function Nav(){
     const location = useLocation()
     useEffect(() =>{
         window.scroll({
-            top:740,
+            top:820,
             behavior: 'smooth',
         }); 
     }, [location.pathname])

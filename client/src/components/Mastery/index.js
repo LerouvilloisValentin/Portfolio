@@ -8,7 +8,7 @@ function Mastery(){
             <Home/>
                 <h1 className="title-content">Maîtrise</h1>
                 <p> Au cours de la formation j'ai appris à me servir de <strong>GitHub</strong>, de <strong>GitProject</strong>, <strong>Okanban</strong>... J'ai programmé avec le système Linux en codant avec le langage <strong>Javascript</strong>.
-                    Pendant le socle nous avons beaucoup travaillé en back-end en découvrant <strong>Node.js</strong>, en se servant du framework <strong>Express</strong> puis nous avons aussi développé en <strong>SQL</strong>. Dans cette période,
+                    Pendant le socle nous avons beaucoup travaillé en back-end en découvrant <strong>Node.js</strong>, en se servant du framework <strong>Express</strong> puis nous avons aussi développé en <strong>SQL</strong> avec <strong>PostgreSQL</strong>. Dans cette période,
                     on nous a appris à chercher dans la "doc", afin de réussir à trouver par sois même, comment s'utilise telle fonctionnalité. Tout les jours un Challenge nous était donné,
                     ce qui nous laissait beaucoup de temps de pratique. Ensuite, j'ai choisi de me spécialiser en <strong>React </strong>  car  sa technique de développement par composant, très efficace et donc très recherchée, m'a attiré. 
                     Nous avons travaillé sur une api sans Redux puis avec <strong>Redux</strong> en manipulant les différents hooks propre à react. <br/><br/>

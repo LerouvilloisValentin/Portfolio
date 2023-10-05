@@ -1,7 +1,6 @@
 import "./home.css"
 import Nav from "../Nav/index"
 import Typical from 'react-typical'
-// import "../../../public/img/fond.jpg"
 
 function Home(){
     const date1 = new Date();
@@ -14,13 +13,13 @@ function Home(){
 
     return(
      <div className="container">
-        <section className="presentation">
-        <Typical
-        steps={['Développeur web', 1000, 'Javascript React', 800]}
-        translate="no"
-        loop={Infinity}
-        wrapper="typical"
-      />
+        <section className="presentation" style={{ backgroundImage: 'public\img\fond.jpg', backgroundSize: 'cover', height: "85vh" }}>        
+            <Typical
+                steps={['Développeur web', 1000, 'Javascript React', 800]}
+                translate="no"
+                loop={Infinity}
+                wrapper="typical"
+        />
             <h2 className="date"> {dateLocale}</h2>
         <ul className="wrapper">
             <li className="icon youtube">
