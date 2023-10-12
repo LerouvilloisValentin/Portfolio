@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 // import styled from "styled-components";
 import Home from "../Home";
@@ -8,16 +8,17 @@ import "./contact.css"
 
 const Contact = () => {
   const form = useRef();
+  const [messageSent, setMessageSent] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_qtdgai9",
+        "service_ehkr1mb",
         "template_l3tkp4k",
         form.current,
-        "AKwn3-LNREQlccMFn"
+        "y2QZ7RpOJuYqnXmmz"
       )
       .then(
         (result) => {
@@ -29,6 +30,7 @@ const Contact = () => {
         }
       );
       e.target.reset()
+      setMessageSent(true)
   };
 
   return (
@@ -42,7 +44,8 @@ const Contact = () => {
         <input type="email" name="user_email" />
         <label>Message</label>
         <textarea name="message" />
-        <input type="submit" value="Send" className="send-button" translate="no" />
+        <input type="submit" value="Send" className="send-button" translate="no"/>
+      {messageSent && <p style={{ color: "green",   paddingLeft:"0%"}}>Message correctly sent !</p>}
       </form>
       </div>
       <Footer/>

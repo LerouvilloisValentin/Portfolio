@@ -74,3 +74,8 @@ textarea:focus{
     margin:50px 0px 50px 50px;
   }
 }
+
+sent_message{
+  color : green;
+  padding-right: 5%;
+}

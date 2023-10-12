@@ -1,4 +1,23 @@
 strong{
-    color: rgb(244, 15, 15);
+    color: rgb(207, 39, 39);
 }
 
+
+
+.column {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #1b1919;
+    margin:5% 8%;
+    background: #2d2c2c;
+    border-radius: 15% 5% 10% 15%;
+    color: rgb(235, 235, 235);
+}
+  
+.title_bio{
+    font-weight: bold;
+    margin: 2% 20% 1%;
+    font-size: 2em;
+    font-family: var(--title-font);
+    letter-spacing: 0.1em;
+}

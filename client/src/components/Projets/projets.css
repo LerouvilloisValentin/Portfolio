@@ -8,7 +8,7 @@ span{
 .projet{
 margin: 5% 10% 10% 10%; 
 color: rgb(226, 223, 223);
-background-color: rgb(40, 40, 33);
+background: #252424;
 /* opacity: 80%; */
 border-radius: 15% 5% 10% 15%;
 }
