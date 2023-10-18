@@ -45,7 +45,7 @@ const Contact = () => {
         <label>Message</label>
         <textarea name="message" />
         <input type="submit" value="Send" className="send-button" translate="no"/>
-      {messageSent && <p style={{ color: "green",   paddingLeft:"0%"}}>Message correctly sent !</p>}
+        {messageSent && <p style={{ color: "green",   paddingLeft:"0%"}}>Message correctly sent !</p>}
       </form>
       </div>
       <Footer/>

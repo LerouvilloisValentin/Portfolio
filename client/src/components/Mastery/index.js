@@ -33,7 +33,8 @@ function Mastery(){
                             C'est sur cela que le groupe des développeurs web sont missionnés. <strong>React</strong>, <strong>Go</strong> et <strong>Gitlab</strong> sont les technos utilisées. <br></br> 
                             <br/>A côté de cela, je regarde des vidéos sur youtube et je revisionne 
                             les replays de mes cours de React pour bien assimiler toutes les notions en faisant des exercices en parallèle. Je viens de finir de m'intéresser aux tests unitaires avec <strong>Jest</strong>, j'ai suivi quelques cours
-                            sur <strong>Typescript</strong> et maitenant je me forme sur Openclassroom à <strong>Angular</strong>. 
+                            sur <strong>Typescript</strong>. Dernièrement j’ai terminé une formation avec <strong>Angular</strong> sur Openclassroom. Je conforte mes apprentissages avec des cours sur Linkedin  Learning et
+                             je compte en apprendre davantage sur cette librairie avec des sujets plus avancés sur Youtube. Je prévois ensuite de créer un projet Angular.
                             Quoi qu'il en soit je continue à prendre de l'expérience de mon côté pour me préparer à toutes éventualités.
                             À l'heure actuelle je souhaite trouver un emploi.
                             </p>
