@@ -4,8 +4,9 @@ import Footer from "../Footer";
 
 function Projets(){
     return(
-        <div className="mastery">
+        <div className="projets">
             <Home/>
+            <div className="background_image">
             <h1 className="title-content">Projets</h1>
                 <article className="projet">     
                     <div className="wrapper-projet">
@@ -69,6 +70,7 @@ function Projets(){
                         <div style={{color:"red", marginLeft:"35vw", paddingBottom:"15px", fontSize:"1.1em" }}>Le site n'est actuellement pas hébergé. </div>
                     </div>
                 </article>
+                </div>
             <Footer/>
         </div>
     )

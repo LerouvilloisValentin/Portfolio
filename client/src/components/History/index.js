@@ -33,23 +33,27 @@ function History(){
 
   
     return(
-    
+    <>
+        <Home/>
         <div className="history">
-            <Home/>
-            <h1 className="title-content">Histoire</h1>
-                <p>Mon histoire commence durant ma période de formation dans un tout autre domaine.
-                J'ai réalisé 3 années d'études et j'ai obtenu ma licence en Staps spécialisé en management sportif en 2019... 
-                En fait, ce que j'ai surtout réalisé c'est que le code m'intéressé davantage.
-                Bien sûr, cette formation a été très intéressante, autant culturellement que professionnellement.
-                Mais je me suis rendu compte, que j'avais plus d'attrait pour le développement web.  Mes premières appétences me viennent de plus loin car 
-                enfant je m'intéressais déjà à tout ce qui touchait à l'informatique. 
-                Je ne cache pas que l'événementiel m'intéressait aussi et ma formation y touchait. Mais la période "covid" m'a remis sur le chemin du code. <br/><br/> J'ai pris du recul 
-                et j'ai donc commencé les démarches pour avoir un financement de la région.
-                Après avoir montré ma détermination par le biais de stage dans le domaine, questionnaire pro... je l'ai obtenu et j'ai commencé la formation chez O'clock. 
-                Ecole au top, super formateurs, malgré que ce soit en intensif durant 6 mois et donc éprouvant, j'ai passé de très bons moments. 
-                Tout ce que j'y ai fait est en détail dans la rubrique &#128073;<Link className="link" to="/mastery">Maîtrise</Link> &#128072;. <br/> <br/> Je vous laisse, {greet}  </p>
+                <div className="background_image">
+                    <h1 className="title-content">Histoire</h1>
+                        <p className="text">Mon histoire commence durant ma période de formation dans un tout autre domaine.
+                        J'ai réalisé 3 années d'études et j'ai obtenu ma licence en Staps spécialisé en management sportif en 2019... 
+                        En fait, ce que j'ai surtout réalisé c'est que le code m'intéressé davantage.
+                        Bien sûr, cette formation a été très intéressante, autant culturellement que professionnellement.
+                        Mais je me suis rendu compte, que j'avais plus d'attrait pour le développement web.  Mes premières appétences me viennent de plus loin car 
+                        enfant je m'intéressais déjà à tout ce qui touchait à l'informatique. 
+                        Je ne cache pas que l'événementiel m'intéressait aussi et ma formation y touchait. Mais la période "covid" m'a remis sur le chemin du code. <br/><br/> J'ai pris du recul 
+                        et j'ai donc commencé les démarches pour avoir un financement de la région.
+                        Après avoir montré ma détermination par le biais de stage dans le domaine, questionnaire pro... je l'ai obtenu et j'ai commencé la formation chez O'clock. 
+                        Ecole au top, super formateurs, malgré que ce soit en intensif durant 6 mois et donc éprouvant, j'ai passé de très bons moments. 
+                        Tout ce que j'y ai fait est en détail dans la rubrique &#128073;<Link className="link" to="/mastery">Maîtrise</Link> &#128072;. <br/> <br/> Je vous laisse, {greet}  
+                        </p>
+                </div>
             <Footer />
         </div>
+        </>
           
     )
     

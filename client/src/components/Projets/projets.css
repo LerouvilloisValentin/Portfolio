@@ -11,6 +11,7 @@ color: rgb(226, 223, 223);
 background: #252424;
 /* opacity: 80%; */
 border-radius: 15% 5% 10% 15%;
+opacity: 0.7;
 }
 
 
@@ -132,4 +133,13 @@ border-radius: 15% 5% 10% 15%;
 
 .logo_youtube{
     padding-left: 65px;
+}
+
+.projets .background_image {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(218, 204, 204, 0.8)), url("/public/img/The\ Blind\ Ninja.gif");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
 }

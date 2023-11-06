@@ -4,12 +4,14 @@ p{
     line-height: 40px;
     font-family: var(--main-font);
     text-indent: 2em;
+    font-weight: bold;
+
 }
 
 .title-content{
     font-family: var(--secondary-font);
     text-align: center;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .link{
@@ -17,3 +19,18 @@ p{
     text-decoration: none;
     font-weight: bold;
 }
+
+
+
+.history .background_image {
+    background-image: linear-gradient(rgba(103, 83, 83, 0.7), rgba(234, 224, 224, 0.8)), url("/public/img/Vintage-Japanese.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+}
+
+
+
+
+
+

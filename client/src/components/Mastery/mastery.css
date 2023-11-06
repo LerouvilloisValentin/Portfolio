@@ -21,3 +21,12 @@ strong{
     font-family: var(--title-font);
     letter-spacing: 0.1em;
 }
+
+.mastery .background_image {
+    background: linear-gradient(rgba(18, 17, 17, 0.7), rgba(255, 255, 255, 0.8));
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}

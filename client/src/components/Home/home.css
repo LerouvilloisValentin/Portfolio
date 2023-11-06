@@ -10,7 +10,7 @@ body{
     background-size: cover;
     padding: 0;
     margin: 0;
-
+    /* background-image: url("C:\code\Portfolio\client\public\img\Fondos-de-Cambio.jpg"); */
 }
 
 .presentation{
@@ -51,7 +51,7 @@ typical{
     }
 }
 h1{
-    color: rgb(82, 82, 82);
+    color: rgb(250, 250, 250);
     font-size: 2.5em;
     margin-top: 180px;
 }
@@ -144,7 +144,7 @@ h1{
 
 
 header{
-    background-color: #bd5353;
+    background-color: rgb(189, 82, 82);
     text-align: center;
     height: 80px;
     display: flex;
