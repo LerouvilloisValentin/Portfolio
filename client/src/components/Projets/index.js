@@ -21,7 +21,7 @@ function Projets(){
                         des voyages, de ses expériences culinaires ou encore de son jeux vidéos préférés. <br/><br/>
                         Je me suis servi de Rxjs pour faire les appels Api. En local, l'utilisateur peut ajouter un nouveau projet
                         en dynamique en y ajoutant un titre une description et une photo.
-                        Je n'ai pas encore déployé le backend car je compte le faire avec NestJs et utiliser du NoSql pour la Base de donnée.<br/><br/>
+                       Niveau Backend j'ai utilisé NestJs le framework de NodeJs qui est compatible avec Typescript. Prochainement, je vais connecter cette Api à un service de base de donnée NoSql.<br/><br/>
                         <div style={{color:"red", paddingBottom:"30px"}}>L'application est encore en développement.  </div>
  
 
