@@ -13,8 +13,8 @@ function Mastery(){
                             <div className="title_bio">Formation</div>
                                 <p>
                                     Au cours de la formation j'ai appris à me servir de <strong>GitHub</strong>, de <strong>GitProject</strong>, <strong>Okanban</strong>... J'ai programmé avec le système Linux en codant avec le langage <strong>Javascript</strong>.
-                                    Pendant le socle nous avons beaucoup travaillé en back-end en découvrant <strong>Node.js</strong>, en se servant du framework <strong>Express</strong>
-                                    puis nous avons aussi développé en <strong>SQL</strong> avec <strong>PostgreSQL</strong>.  Tout les jours un Challenge nous était donné,
+                                    Pendant le socle nous avons beaucoup travaillé en back-end en découvrant <strong>Node.js</strong>, en se servant du framework <strong>Express</strong> puis 
+                                    nous avons aussi développé en <strong>SQL</strong> avec <strong>PostgreSQL</strong>.  Tout les jours un Challenge nous était donné,
                                     ce qui nous laissait beaucoup de temps de pratique. Ensuite, j'ai choisi de me spécialiser en <strong>React </strong>  car  sa technique de développement par composant, très efficace et donc très recherchée, m'a attiré. 
                                     En fin de formation, nous avons travaillé avec <strong>Redux</strong> en manipulant les différents hooks propre à react. <br/><br/>
                                     Au terme de cette formation, nous avons eu un projet à réaliser pendant un mois : Faire une application de A à Z que nous avons d'ailleurs déployée pour la présentation 
