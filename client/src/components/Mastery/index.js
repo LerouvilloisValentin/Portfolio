@@ -12,7 +12,7 @@ function Mastery(){
                         <div class="column">
                             <div className="title_bio">Formation</div>
                                 <p>
-                                    Au cours de la formation j'ai appris à me servir de <strong>GitHub</strong>, de <strong>GitProject</strong>, <strong>Okanban</strong>... J'ai programmé avec le système Linux en codant avec le langage <strong>Javascript</strong>.
+                                    Au cours de la formation j'ai appris à me servir de <strong>GitHub</strong>, de <strong>GitProject</strong>, <strong>Okanban</strong>... J'ai programmé avec Linux pour apprendre à coder avec le langage <strong>Javascript</strong>.
                                     Pendant le socle nous avons beaucoup travaillé en back-end en découvrant <strong>Node.js</strong>, en se servant du framework <strong>Express</strong> puis 
                                     nous avons aussi développé en <strong>SQL</strong> avec <strong>PostgreSQL</strong>.  Tout les jours un Challenge nous était donné,
                                     ce qui nous laissait beaucoup de temps de pratique. Ensuite, j'ai choisi de me spécialiser en <strong>React </strong>  car  sa technique de développement par composant, très efficace et donc très recherchée, m'a attiré. 
@@ -36,9 +36,9 @@ function Mastery(){
                                 C'est sur cela que le groupe des développeurs web sont missionnés. <strong>React</strong>, <strong>Go</strong> et <strong>Gitlab</strong> sont les technos utilisées. <br></br> 
                                 
                                 <br/>A côté de cela, je regarde des vidéos sur youtube et je revisionne 
-                                les replays de mes cours de React pour bien assimiler toutes les notions en faisant des exercices en parallèle. Je viens de finir de m'intéresser aux tests unitaires avec <strong>Jest</strong>, j'ai suivi quelques cours
-                                sur <strong>Typescript</strong>. Dernièrement j’ai terminé une formation avec <strong>Angular</strong> sur Openclassroom. Je conforte mes apprentissages avec des cours sur Linkedin  Learning et Youtube. 
-                                Dernièrement j'ai travaillé avec les pipes de <strong>RxJS</strong> et en ce moment, je créer un projet Angular.
+                                les replays de mes cours de React pour bien assimiler toutes les notions en faisant des exercices en parallèle. Je me suis intéressé aux tests unitaires avec <strong>Jest</strong>, j'ai suivi quelques cours
+                                sur <strong>Typescript</strong>. Dernièrement j’ai réalisé un projet de partage d'expérience avec le framework <strong>Angular</strong> sur Openclassroom. Je conforte mes apprentissages avec des cours sur Linkedin  Learning et Youtube. 
+                                J'ai aussi travaillé avec les pipes de <strong>RxJS</strong>. Je suis encore des cours avec Angular pour bien le maîtriser mais je me suis aussi intéressé à <strong>JAVA</strong>.
                                 Quoi qu'il en soit je continue à prendre de l'expérience de mon côté pour me préparer à toutes éventualités. Je sais aussi travailler avec <strong>Material Ui</strong>, <strong>Semantic Ui</strong>, <strong>Tailwind</strong> et <strong>Bootstrap</strong>.
                                 À l'heure actuelle je souhaite trouver un emploi.
                                 </p>

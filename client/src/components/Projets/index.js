@@ -60,7 +60,7 @@ function Projets(){
                             
                                 </div>
                                 </p>
-                                <div style={{color:"red", marginLeft:"35vw", paddingBottom:"15px", fontSize:"1.1em" }}>Le site n'est actuellement pas hébergé. </div>
+                                <div style={{color:"red", marginLeft:"35vw", paddingBottom:"15px", fontSize:"1.5em" }}>Le site n'est actuellement pas hébergé. </div>
                             </div>
                         </article>
 

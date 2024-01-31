@@ -6,11 +6,11 @@ import { useEffect } from "react";
 function Nav(){
     const location = useLocation()
     useEffect(() =>{  
-        if (window.innerHeight >= 1000){
+        if (window.outerHeight >= 1000){
         window.scroll({
-            top:905,
+            top:890,
             behavior: 'smooth',
-        });}else if (window.innerHeight <= 990){
+        });}else if (window.outerHeight <= 990){
             window.scroll({
                 top:700,
                 behavior: 'smooth',
