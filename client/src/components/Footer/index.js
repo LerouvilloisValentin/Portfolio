@@ -3,10 +3,18 @@ import "./footer.css"
 
 function Footer(){
     const upToHome = () => {
-        window.scroll({
-            top:"700",
-            behavior:'smooth',
-        })
+
+        if (window.innerHeight >= 1000){
+            window.scroll({
+                top:905,
+                behavior: 'smooth',
+            });}else if (window.innerHeight <= 990){
+                window.scroll({
+                    top:700,
+                    behavior: 'smooth',
+                }); 
+            }
+
     }
     return(
         <div className="footer">

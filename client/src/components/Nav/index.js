@@ -5,11 +5,17 @@ import { useEffect } from "react";
 
 function Nav(){
     const location = useLocation()
-    useEffect(() =>{
+    useEffect(() =>{  
+        if (window.innerHeight >= 1000){
         window.scroll({
-            top:820,
+            top:905,
             behavior: 'smooth',
-        }); 
+        });}else if (window.innerHeight <= 990){
+            window.scroll({
+                top:700,
+                behavior: 'smooth',
+            }); 
+        }
     }, [location.pathname])
     return(
         <nav className="menu">
