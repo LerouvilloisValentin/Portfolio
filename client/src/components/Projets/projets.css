@@ -151,7 +151,7 @@ opacity: 0.7;
 }
 
 .projets .background_image {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(218, 204, 204, 0.8)), url("/public/img/The\ Blind\ Ninja.gif");
+    background: linear-gradient(rgba(52, 51, 51, 0.5), rgba(218, 204, 204, 0.8)), url("/public/img/paysage-fluo.jpg");
     /* background-repeat: no-repeat; */
     background-size: cover;
     padding-bottom: 10px;
