@@ -37,10 +37,10 @@ function Mastery(){
                                 
                                 <br/>A côté de cela, je regarde des vidéos sur youtube et je revisionne 
                                 les replays de mes cours de React pour bien assimiler toutes les notions en faisant des exercices en parallèle. Je me suis intéressé aux tests unitaires avec <strong>Jest</strong>, j'ai suivi quelques cours
-                                sur <strong>Typescript</strong>. Dernièrement j’ai réalisé un projet de partage d'expérience avec le framework <strong>Angular</strong> sur Openclassroom. Je conforte mes apprentissages avec des cours sur Linkedin  Learning et Youtube. 
-                                J'ai aussi travaillé avec les pipes de <strong>RxJS</strong>. Je suis encore des cours avec Angular pour bien le maîtriser mais je me suis aussi intéressé à <strong>JAVA</strong>.
+                                sur <strong>Typescript</strong>. J’ai réalisé un projet de partage d'expérience avec le framework <strong>Angular</strong> sur Openclassroom. Je conforte mes apprentissages avec des cours sur Linkedin  Learning et Youtube. 
+                                J'ai aussi travaillé avec les pipes de <strong>RxJS</strong>. Je suis des cours avec <strong>JAVA</strong> et je m'apprête à suivre une formation en alternance en tant que concepteur développeur Fullstack Java avec l'école Diginamic à partir du 26 mars 2024.
                                 Quoi qu'il en soit je continue à prendre de l'expérience de mon côté pour me préparer à toutes éventualités. Je sais aussi travailler avec <strong>Material Ui</strong>, <strong>Semantic Ui</strong>, <strong>Tailwind</strong> et <strong>Bootstrap</strong>.
-                                À l'heure actuelle je souhaite trouver un emploi.
+                                À l'heure actuelle je souhaite trouver une alternance.
                                 </p>
                         </div>
                     </div>
