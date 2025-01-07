@@ -152,7 +152,7 @@ header{
     align-items: center;    
     justify-content: space-between;
     font-size: 1.1em;
-    padding: 0% 1%;
+    padding: 1.4% 1% 0%;
 }
 
 @media (max-width:620px){
