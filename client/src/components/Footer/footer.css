@@ -1,45 +1,41 @@
-
-
-
-.footer-top{
-    background: rgb(169, 184, 184);
-    height: 45px;
-    width: 100%;
-    display:flex ;
-    align-items:center ;
-    justify-content: center;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    margin-top: -22px;
+.footer-top {
+  background: rgb(169, 184, 184);
+  height: 45px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  margin-top: -22px;
 }
 
-.footer-top:hover{
-    background: rgb(156, 49, 49);
+.footer-top:hover {
+  background: rgb(156, 49, 49);
 }
 
-.buttoon-up{
-    display:flex ;
-    align-items:center ;
-    justify-content: center;
-    height: 30px;
-    width: 65px;
-    cursor: pointer;
+.buttoon-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 65px;
+  cursor: pointer;
 }
-.footer-bottom{
-    background-color: rgb(26, 25, 25);
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: space-evenly;
-    height: 45px;
-    flex-direction: column;
-    padding-top: 35px;
+.footer-bottom {
+  background-color: rgb(26, 25, 25);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 10vh;
 }
 
-.github{
-    width : 40px;
-    height : 40px;
+.github {
+  width: 40px;
+  height: 40px;
 }
 
 .wrapper .github:hover,
@@ -49,9 +45,9 @@
   color: #ffffff;
 }
 
-.title-footer{
-    font-size: 1em;
-    display: flex;
-    margin: 0px;
-    padding: 0;
+.title-footer {
+  font-size: 1em;
+  display: flex;
+  margin: 0px;
+  padding: 0;
 }
